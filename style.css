@@ -38,10 +38,14 @@ body {
 .corpinho-pre {
     margin: 0;
     padding: 0;
+    padding-bottom: 8rem;
 }
 
 .palitinhos {
     visibility: hidden;
+	position: fixed;
+	top: 50px;
+	left: 40%;
 }
 
 .palitinho-inicio {
