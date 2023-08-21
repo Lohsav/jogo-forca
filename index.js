@@ -1,6 +1,3 @@
-/*
-* Jogo da forca - Ionar
-*/
 
 //window.onload=function(){}
 
