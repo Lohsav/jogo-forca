@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="jogo-container">
+        <div class="jogo-centro-flex-item">
+            <div id="mensagem" class="tipografia-jogo-menor">JOGO DA FORCA</div>
+<pre id="id-corpinho-pre" class="corpinho-pre tipografia-jogo">
+    <img id="inicio" class="palitinhos palitinho-inicio" src="a.JPG" alt="imagem 01 da forca">
+    <img id="cabeca" class="palitinhos" src="b.JPG" alt="imagem 02 da forca">
+    <img id="braco-esquerdo" class="palitinhos" src="c.JPG" alt="imagem 03 da forca">
+    <img id="tronco" class="palitinhos" src="d.JPG" alt="imagem 04 da forca">
+    <img id="braco-direito" class="palitinhos" src="e.JPG" alt="imagem 05 da forca">
+    <img id="perna-esquerda" class="palitinhos" src="f.JPG" alt="imagem 02 da forca">
+    <img id="perna-direita" class="palitinhos" src="g.JPG" alt="imagem 02 da forca">
+
+</pre>
+            <div id="letras-gabarito" class="tipografia-jogo"></div>
+            <div id="entrada-usuario" class="tipografia-jogo">
+                <input id="input-usuario" type="text" maxlength="1" size="1" required="required" pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$">
+                <input id="tentar-btn" type="button" value="TENTAR">
+            </div>
+            <div id="letras-tentadas" class="tipografia-jogo-menor"></div>
+            <div id="revelada" class="tipografia-jogo-menor"></div>
+        </div>
+
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
